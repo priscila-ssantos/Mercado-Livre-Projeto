@@ -89,3 +89,8 @@
     }
 }
 
+@media (max-width: 768px) {
+    .top-menu {
+        display: none;
+    }
+}

@@ -115,11 +115,11 @@ function renderProduct(products) {
     // map -> mapeia, percorre o array, pegando produto por produto
 }
 
-function searchProducts(){
-   const searchInputElement = document.querySelector('.search-input')
-   const searchInput = searchInputElement ? searchInputElement.value.toLowerCase() : ''
+function searchProducts() {
+    const searchInputElement = document.querySelector('.search-input')
+    const searchInput = searchInputElement ? searchInputElement.value.toLowerCase() : ''
 
-   const filteredProducts = products.filter(product => product.title.toLowerCase().includes(searchInput))
+    const filteredProducts = products.filter(product => product.title.toLowerCase().includes(searchInput))
 
     renderProduct(filteredProducts)
 }
