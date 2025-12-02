@@ -1,4 +1,4 @@
-#  Mercado Livre - Projeto
+# Clone do Mercado Livre
 
 Descrição
 
